@@ -1,0 +1,39 @@
+                                        - java-script -
+
+=> often abbreviated JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS.
+
+=>  98% of websites use JavaScript on the client side for web page behavior, often incorporating third-party libraries.
+
+=> All major web browsers have a dedicated JavaScript engine to execute the code on users' devices.
+
+=> This meant that JScript became the de facto standard for client-side scripting on the Web.
+
+=> Scripts are embedded in or included from HTML documents and interact with the DOM.
+
+=> All major web browsers have a built-in JavaScript engine that executes the code on the user's device.
+
+=> Loading new web page content without reloading the page, via Ajax or a WebSocket.
+
+=> Web page animations, such as fading objects in and out, resizing, and moving them.
+
+=> Playing browser games.
+
+=> Controlling the playback of streaming media.
+
+=> Generating pop-up ads.
+
+=> Logging data about the user's behavior then sending it to a server.
+
+=> Redirecting a user to another page.
+
+=> Over 80% of websites use a third-party JavaScript library or web framework for their client-side scripting
+
+=> JavaScript engines are now embedded in a variety of other software systems, both for server-side website deployments and non-browser applications.
+
+=> JavaScript supports much of the structured programming syntax from C 
+
+=> One syntactic difference from C is automatic semicolon insertion, which allow semicolons to be omitted.
+
+=> JavaScript is dynamically typed like most other scripting languages.
+
+=> JavaScript supports various ways to test the type of objects, including duck typing.
