@@ -1,0 +1,27 @@
+.background-flag {
+    background:linear-gradient(180deg,orangered,white,green);
+    border:10px dashed black;
+    height:500px;
+    padding:25px;
+    background-size:contain;
+}
+.background-flag img {
+    margin-top:200px;
+    margin-left:550px;
+    border-radius:50px;
+}
+.style p::first-letter{
+    font-size:30px;
+    
+}
+.style p{
+    background-color: aquamarine;
+}
+.typ table{
+    background-color: rgb(241, 74, 13);
+    border:0px;
+    width: 100%;
+}
+.typ table img{
+    border-radius:200px;
+}
