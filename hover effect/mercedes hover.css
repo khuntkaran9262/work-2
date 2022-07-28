@@ -1,0 +1,28 @@
+body{
+    background-color: #161616;
+    display: flex;
+    height: 130vh;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    /* background-color: #363636; */
+    width: 1350px;
+    height: 470px;
+    margin-left: 230px;
+    border-radius: 100px;
+    filter: grayscale(100%);
+}
+.container img{
+    object-fit: cover;
+    height: 100%;
+}
+.container:hover{
+    /* background-color: #aa0505; */
+    filter: grayscale(0);
+}
+.container:hover.container img{
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+    transform: scale(1.3);
+}

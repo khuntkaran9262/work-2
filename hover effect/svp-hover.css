@@ -1,0 +1,27 @@
+svg{
+    width: 1500px;
+    height: 1500px;
+}
+.loader{
+    fill:none;
+    stroke-width: 6px;
+    stroke: blue;
+    animation: load 6s infinite;
+}
+@keyframes load {
+    0%{
+        stroke-dasharray: 50;
+    }
+    25%{
+        stroke-dasharray: 40;
+    }
+    50%{
+        stroke-dasharray: 20;
+    }
+    75%{
+        stroke-dasharray: 10;
+    }
+    100%{
+        stroke-dasharray: 50;
+    }
+}
