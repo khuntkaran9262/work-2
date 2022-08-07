@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <link rel="stylesheet" href="Validation Form.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="center">
+        <h1>Login</h1>
+        <form method="post">
+            <div class="txt_field">
+                <input type="text" required>
+                <!-- <span></span> -->
+                <label>User-id</label>
+            </div>
+            <div class="txt_field">
+                <input type="password" required>
+            
+                <!-- <span></span> -->  
+                <label >Password</label>
+                <span class="error_form" id="password_error_message"></span>
+                <!-- <input id="password" name="password"   type="password  "autocomplete="off" id="password" onkeyup="passcheck(this.value)"> -->
+                <!-- <div class="errors">
+                    <ul>
+                        <li id="upper">Atleast one uppercase</li>
+                        <li id="lower">atleast one lowercase</li>
+                        <li id="special_char">atleast one special symbol</li>
+                        <li id="number">atleast one number</li>
+                        <li id="lenght">atleast 8 charectors</li>
+                    </ul>
+                </div> -->
+            </div>
+
+            <div class="txt_field">
+                <input type="text" required>
+                <label>Name</label>
+            </div>
+            <div class="txt_field">
+                <input type="text" required>
+                <label>Address</label>
+            </div>
+            <div class="txt_field">
+                <input type="text" required>
+                <label>Country</label>
+            </div>
+            <!-- <div class="txt_field">
+                <input type="text" required>
+                <label>Zip-code</label>
+            </div> -->
+            <div class="txt_field">
+                <input type="text" required>
+                <label>E-mail</label>
+            </div>
+            <div class="gen_field">
+                <!-- <div class="txt_field"> -->
+                <!-- <input type="" required> -->
+                <label>Gender</label>
+                <input type="radio">male</input>
+                <input type="radio">Female</input>
+
+                <!-- <input type="radio">male</input>
+                <input type="radio">Female</input> -->
+            </div>
+            <div class="txt_field">
+                <input type="text" required>
+                <label>Language</label>
+            </div>
+            <div class="txt_field">
+                <input type="text" required>
+                <label>About</label>
+            </div>
+            <input type="submit" value="reset">
+            <input type="submit" value="Login">
+            <div class="singup_link"></div>
+            </form>
+            </div>
+
+
+    <script type="text/javascript">
+        $(function() {
+
+            $("password_error_message").hide();
+
+            var error_password = false;
+
+            $("#form_password").focusout(function() {
+            });
+
+            function check_password(){
+                var password_lenght=$("#form_password").val().lenght;
+                if(password_lenght < 8){
+                    $("password_error_message").html("Atleast 8 characters");
+                    $("password_error_message").show();
+                    $("form_password").css("border_bottom","2px solid #f90A0A");
+                    error_password = true;
+                }else{
+                    $("password_error_message").hide();
+                    $("form_password").css("border_bottom","2px solid #34F458");
+                }
+            }
+
+            $("#registration_form").submit(function() {
+              error_password = false;
+
+              check_password();
+
+              if(error_password === false){
+                alert("Registration successfull");
+                return true;
+
+              }else {
+                alert("please fill the form correctly");
+                return false;
+              }
+            });
+        });
+        // function passcheck(thisvalue) {
+        //     const lowercase = new RegExp('(?=.*[a-z])');
+        //     const uppercase = new RegExp('(?=.*[A-Z])');
+        //     const number = new RegExp('(?=.*[0-9])');
+        //     const specialchar = new RegExp('(?=.*[!@#\$%\^&\*])');
+        //     const eightchar = new RegExp('(?=.{8,})');
+
+        // }
+        // // function Validateform( ) {
+        //     {
+        //     var password = document.password.value;
+        //     if (name == null || name == "") {
+        //         alert("name can't be empty");
+        //         return false;
+        //     } else if (password.lenght > 7) {
+        //         alert("password must aleast be 7 characters");
+        //         return false;
+        //     }
+        // }
+            // var pass = document.getElementById('pass');
+            // var uper = document.getElementById('upper');
+            // var lower = document.getElementById('lower');
+            // var special_char = document.getElementById('special_char');
+            // var num = document.getElementById('number');
+            // var len = document.getElementById('lenght');
+            // if(pass.value.match(/[0-9]/)){
+            //     // pass contain 0-9 numbetr
+            //     num.style.color='green'
+            // }
+            // }else
+            //     num.style.color='red'
+            // }
+    </script>
+</body>
+
+</html>
