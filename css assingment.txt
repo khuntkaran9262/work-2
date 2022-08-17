@@ -1,0 +1,92 @@
+                                                                                                    
+                                                                                                         Module (CSS and CSS 3) -2
+
+1. What are the benefits of using CSS?
+:- .Better Website Speed. For a website to function efficiently, it should have a faster load time. ....Easier to Maintain. 
+:-CSS is easy to maintain due to less maintenance time. ...
+:-Consistent Design. ...
+:-Time-Saving. ...
+:-Better Device Compatibility. ...
+:-Positioning of Design Elements.
+
+2. What are the disadvantages of CSS?
+:-CSS, CSS 1 up to CSS3, result in creating of confusion among web browsers.
+:-With CSS, what works with one browser might not always work with another. ...
+:-There exists a scarcity of security.
+:-After making the changes we need to confirm the compatibility if they appear.
+ 
+3.What is the difference between CSS2 and CSS3? 
+:-Unlike CSS2, which was comprised of a single document, CSS3 has its specifications divided into many individual modules, which makes CSS3 a whole lot easier to handle.
+
+4. Name a few CSS style components 
+:-Selecter:HTML element name, id name, class name.
+:-Property:It's like an attribute such as background color,font-size,position,text-align,color,border etc.
+:-Values:which defines property or values allocate for properties.
+
+5.What do you understand by CSS opacity? 
+:-Opacity is the degree to which content behind an element is hidden, and is the opposite of transparency.08-May-2022
+:-Applies to: all elements
+:-Computed value: The same as the specified v...
+:-Inherited: no
+:-Animation type: by computed value type
+
+6.How can the background color of an element be changed? 
+:-Add a CSS class to the div you'd like to change. First, find the div in your HTML code and add a class to the opening tag. ...
+:-Add the new class selector to your CSS code. Next, head over to your CSS code and add your new class selector. ...
+:-Choose a new background color.
+
+7. How can image repetition of the backup be controlled?
+:-use the background-repeat property.
+
+8.What is the use of the background-position property? 
+:-sets the starting position of a background image. 
+:-Default value: 0% 0%
+:-JavaScript syntax: object.style.backgroundPos...
+:-Inherited: no
+
+9.Which property controls the image scroll in the background? 
+:-background-attachment property
+
+10.Why should background and color be used as separate properties? 
+:- It enhances the legibility of style sheets.
+
+11.How to center block elements using CSS1? 
+:-use margin: auto
+
+12.How to maintain the CSS specifications? 
+:-World Wide Web Consortium (W3C)
+
+13.What are the ways to integrate CSS as a web page? 
+:-The 3 ways to insert CSS into your web pages
+1.With an external file that you link to in your web page: ...
+2.By creating a CSS block in the web page itself; typically inserted at the top of the web page in between the <head> and </head> tags: ...
+3.By inserting the CSS code right on the tag itself:
+
+14.What is embedded style sheets?
+:-Embedded style sheets allow you to define styles for the whole HTML document in one place. 
+
+15.What are the external style sheets? 
+:-An external style sheet is a separate CSS file that can be accessed by creating a link within the head section of the webpage.
+
+16.What are the advantages and disadvantages of using external style sheets? 
+:-you can control the look and feel of several documents at once.
+
+17.What is the meaning of the CSS selector? 
+:-It is a pattern of elements and other terms that tell the browser which HTML elements should be selected to have the CSS property values inside the rule applied to them
+
+18.What are the media types allowed by CSS?
+:-CSS 2.1 defines the following media groups:
+:-continuous or paged.
+:-visual, audio, speech, or tactile.
+:-grid (for character grid devices), or bitmap.
+:-interactive (for devices that allow user interaction), or static (for those that do not).
+:-all (includes all media types)
+
+ 19.What is the rule set? 
+:-the set of rules agreed for a contest, esp in martial arts.
+
+20.Create Layouts 
+:-open in file-
+                   css assignment.html
+                                &
+                 css assignment.css

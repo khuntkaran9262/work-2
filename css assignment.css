@@ -1,0 +1,40 @@
+.cart{
+    display: block;
+    columns: 3;
+    
+}
+.cart img{
+    height: 350px;
+    margin: 10px;
+    /* border-radius: 12px; */
+}
+.bt{
+margin-left: 15px;
+}
+.bt button{
+    border-width: 5px;
+    background-color: rgb(84, 187, 127);
+    color: aliceblue;
+}
+.text{
+    
+    margin-left: 10px;
+
+margin-top: -30px;
+/* padding-right: 40px; */
+    width: 350px;
+    height: 160px;
+    background-color: rgb(232, 238, 238);
+}
+.text h1{
+    color: rgb(125, 134, 70);
+    /* text-align: center; */
+
+}
+.text p{
+    color: rgb(63, 75, 185);
+    text-align: center;
+}
+.section-1{
+    font-size: 20px;
+}
