@@ -1,0 +1,193 @@
+/* @media ( max-width:786px){ */
+.header {
+    width: 100%;
+    height: 150px;
+    background-color: darkgray;
+}
+
+.logo img {
+    margin-top: 40px;
+    width: 300px;
+    margin-left: 20px;
+}
+
+.icon  ul  {
+    display: flex;
+    margin-top: -40px;
+    /* border-left: double; */
+    margin-left: 1093px;
+    
+}
+.icon li a {
+    text-decoration: none;
+}
+.dd i {
+border-right: 2px solid #806f6f;
+    padding: 5px;
+}
+.dd-1{
+    margin-top: 3px;
+}
+.menu li  {
+    margin-top: 10px;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 30px;
+
+}
+
+.menu li a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.home a {
+    background-color: rgb(8, 8, 8);
+    margin-left: 696px;
+}
+
+.banner img {
+    width: 85%;
+    height: 500px;
+    margin-left: 100px;
+}
+
+.text {
+    margin-top: -480px;
+    margin-left: 250px;
+    font-size: 31px;
+    color: aliceblue;
+}
+
+.text h3 {
+    margin-top: -20px;
+    margin-left: 60px;
+}
+
+.text p {
+    margin-top: 150px;
+}
+
+.text-2  a button {
+    color: aliceblue;
+    position: absolute;
+    font-size: 25px;
+    background-color: black;
+
+    margin-left: 150px;
+    margin-top: 21px;
+}
+
+.section-2 {
+    margin-left: 100px;
+    margin-top: 66px;
+}
+
+.row {
+    display: flex;
+}
+
+.col-lg-2 {
+    width: 46%;
+    /* background-color: cadetblue; */
+}
+
+.m-text {
+    /* position: absolute; */
+    margin-top: -20px;
+    background-color: #bbb3b3;
+}
+
+.m-text h2 {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.m-text input {
+    margin-left: 26px;
+}
+
+.form h4 {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.form a button {
+    background-color: lightseagreen;
+    margin-left: 20px;
+}
+
+.form h3 {
+    text-align: center;
+}
+
+.form h5 {
+    border-top-style: solid;
+    font-size: 18px;
+}
+.n-text h2{
+    margin-left: 50px;
+}
+.n-text p{
+    color: blue;
+    font-size: 14px;
+    margin-left: 50px;
+}
+.n-text h3{
+    color: blue;
+    font-size: 13px;
+    margin-left: 50px;
+}
+.n-text li a{
+    text-decoration: none;
+    margin-left: 50px;
+}
+.n-text a button{
+    margin-left: 418px;
+    background-color: black;
+    color: aliceblue;
+}
+.n-text span{
+    margin-left: 50px;
+}
+.n-text  a button{
+margin-left: 50px;
+}
+.btn{
+    background-color: aqua;
+}
+.para p {
+    position: absolute;
+    background-color: blue;
+    color: aliceblue;
+    height: 165px;
+    
+    margin-left: 378px;
+    margin-top: -184px;
+
+}
+.para h3{
+    position: absolute;
+    color: aliceblue;
+    margin-left: 443px;
+    margin-top: -20px;
+
+    
+}
+.futtor{
+    width: 1210px;
+    height: 80px;
+    margin-left: -39px;
+    margin-top: 30px;
+    background-color: black;
+}
+.futtor li  {
+    display: contents;
+    /* margin-left: 50px; */
+    /* margin-left: 421px; */
+}
+.futtor li a{
+    margin-left: 190px;
+    margin-top: 20px;
+    color: aliceblue;
+}
